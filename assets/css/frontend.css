@@ -1,0 +1,205 @@
+/**
+ * Frontend Styles
+ *
+ * @package Unstoppable_Points_Rewards_Free
+ */
+
+/* Points Redemption Form */
+.uprf-points-redemption {
+	background: #f7f7f7;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.uprf-points-redemption h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.uprf-balance-info {
+	margin-bottom: 15px;
+}
+
+.uprf-redemption-form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+}
+
+.uprf-redemption-form label {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.uprf-points-input {
+	width: 120px;
+	padding: 8px;
+}
+
+.uprf-points-applied {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.uprf-message {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.uprf-message.uprf-success {
+	background: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+.uprf-message.uprf-error {
+	background: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+}
+
+/* My Account Rewards Page */
+.uprf-rewards-page {
+	max-width: 800px;
+}
+
+.uprf-rewards-summary {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.uprf-summary-card {
+	background: #f7f7f7;
+	padding: 25px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.uprf-summary-card h3 {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	color: #666;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.uprf-points-value {
+	font-size: 42px;
+	font-weight: bold;
+	color: #7f54b3;
+	line-height: 1.2;
+}
+
+.uprf-points-label {
+	font-size: 14px;
+	color: #666;
+	margin-top: 5px;
+}
+
+.uprf-worth {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+	font-size: 14px;
+	color: #333;
+}
+
+/* Points History Table */
+.uprf-rewards-history {
+	margin-bottom: 30px;
+}
+
+.uprf-rewards-history h3 {
+	margin-bottom: 15px;
+}
+
+.uprf-history-table {
+	width: 100%;
+}
+
+.uprf-history-table th,
+.uprf-history-table td {
+	padding: 12px;
+	text-align: left;
+}
+
+.uprf-positive {
+	color: #28a745;
+	font-weight: bold;
+}
+
+.uprf-negative {
+	color: #dc3545;
+	font-weight: bold;
+}
+
+.uprf-no-history {
+	padding: 30px;
+	text-align: center;
+	background: #f7f7f7;
+	border-radius: 5px;
+	color: #666;
+}
+
+/* Upgrade CTA */
+.uprf-upgrade-cta {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.uprf-upgrade-cta h4 {
+	margin: 0 0 10px 0;
+	color: #fff;
+}
+
+.uprf-upgrade-cta p {
+	margin: 0;
+	opacity: 0.9;
+}
+
+/* Thank you page message */
+.uprf-points-message {
+	margin-bottom: 20px;
+}
+
+/* Shortcode History Table */
+.uprf-points-history-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.uprf-points-history-table th,
+.uprf-points-history-table td {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+}
+
+.uprf-points-history-table th {
+	background: #f7f7f7;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+	.uprf-redemption-form {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.uprf-points-input {
+		width: 100%;
+	}
+
+	.uprf-points-value {
+		font-size: 32px;
+	}
+}
