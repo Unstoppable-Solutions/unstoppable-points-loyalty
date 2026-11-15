@@ -4,7 +4,7 @@ Tags: woocommerce, points, loyalty, rewards, discount
 Requires at least: 6.0
 Tested up to: 7.1.3
 Requires PHP: 7.4
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,10 @@ Customers can view their points balance and history in My Account → Rewards.
 4. Points earned email notification
 
 == Changelog ==
+
+= 1.1.6 =
+* Republish of 1.1.5 content with corrected SVN tag.
+* Same changes as 1.1.5: bumped "Tested up to" to WordPress 7.1.3.
 
 = 1.1.5 =
 * Bumped "Tested up to" to WordPress 7.1.3.
