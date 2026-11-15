@@ -3,7 +3,7 @@
  * Plugin Name:       Unstoppable Points & Loyalty for WooCommerce
  * Plugin URI:        https://unstoppablesolutions.app/PluginDetail?slug=unstoppable-points-loyalty
  * Description:       A simple yet powerful points and loyalty system for WooCommerce. Reward customers for purchases and let them redeem points for discounts.
- * Version:           1.1.4
+ * Version:           1.1.5
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Unstoppable WP
@@ -155,7 +155,7 @@ unstoppable_options_studio_init();
  */
 
 // Plugin constants.
-define( 'UPRF_VERSION', '1.1.4' );
+define( 'UPRF_VERSION', '1.1.5' );
 define( 'UPRF_PLUGIN_FILE', __FILE__ );
 define( 'UPRF_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'UPRF_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
